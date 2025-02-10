@@ -1,4 +1,7 @@
+using CodeFirstDemoWithAnnotations.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSqlServer<IndigoAirlinesContext>("server=.\\sqlexpress;database=IndigoAirlines;Integrated Security=true;Trust Server Certificate=true");
 
 // Add services to the container.
 
