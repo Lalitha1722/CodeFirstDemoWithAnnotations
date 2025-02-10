@@ -12,7 +12,6 @@ namespace CodeFirstDemoWithAnnotations.Controllers
     [Route("api/[controller]")]
     [ApiController]
     //Uma is a good girl
-    // this is the new comment for revert
     public class PassengersController : ControllerBase
     {
         private readonly IndigoAirlinesContext _context;
